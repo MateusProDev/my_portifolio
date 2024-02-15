@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainSections{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainSectionsBox{
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionUm{
+    background-image: url('../../public/img/fundoGatinho.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 100vh 100px #00000091;
+}
+.secUm{
+    width: 100%;
+    text-align: left;
+    padding: 50px;
+}
+.secUm h2{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #0075FF;
+}
+.secUm p{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0 15px 0;
+}
+.secUmDois{
+    width: 100%;
+    text-align: left;
+    padding-right: 50px;
+}
+.secUmDois h2{
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.secUmDois p{
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    margin: 15px 0 15px 0;
+}
+.secUm button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #25D366;
+    color: #fff;
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    box-shadow: 2px 2px 20px 5px #000000;
+    will-change: transform, opacity;
+}
+.secUm button:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 30px 1px #0077ff87;
+    cursor: pointer;
+    will-change: transform, opacity;
+}
+.imgSecUm {
+    width: auto;
+    transform: scale(1.9);
+    filter: drop-shadow(1px 1px 20px #ffffffc5);
+    position: relative; /* Adicionado para definir o contexto de posicionamento para o elemento filho */
+    animation: flutuar 3s ease-in-out infinite;
+    will-change: transform, opacity;
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        height: 500px;
+        transform: translateY(0);
+    }
+    50% {
+        height: 500px;
+        transform: translateY(-20px);
+    }
+}
+
+.sectionUmSocial img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 10px #ffffffa1);
+    cursor: pointer;
+}
+
+.sectionDois{
+    color: orange;
+    
+}
+.sectionTres{
+    color: green;
+    
+}

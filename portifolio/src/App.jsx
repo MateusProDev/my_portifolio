@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './components/NavBar';
+import MainContainer from './components/MainContainer';
 
-function App() {
+// import ApiData from './components/ApiData';
+
+// Componentes para diferentes rotas
+const Home = () => <div>
+  
+</div>;
+const About = () => 
+<div>
+  
+</div>;
+const Contact = () => <div>Contact</div>;
+const Avaliações = () => <div>
+  
+</div>;
+
+
+// Componente principal da aplicação
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+      <div>
+        {/* Barra de navegação */}
+        <NavBar />
+
+        {/* Definição de rotas */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Avaliações" element={<Avaliações />} />
+        </Routes>
+      </div>
+      </Router>
+      <MainContainer />
+    </>
   );
-}
+};
 
 export default App;

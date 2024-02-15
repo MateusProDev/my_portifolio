@@ -1,0 +1,9 @@
+.animated-element {
+    color: #fff;
+  }
+  
+  .animate {
+    /* Adicione estilos de animação aqui, como transições */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
