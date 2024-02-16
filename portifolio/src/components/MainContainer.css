@@ -220,7 +220,7 @@
     }
     .imgSecUm {
         width: 240px;
-        height: 400px !important;
+        height: 240px !important;
         filter: drop-shadow(1px 1px 20px #ffffffc5);
         position: relative;
         animation: flutuar 3s ease-in-out infinite;
@@ -250,8 +250,8 @@
         font-size: 18px; /* Reduzindo o tamanho da fonte */
     }
     .imgSecUm {
-        width: 250px;
-        height: 350px !important;
+        width: 270px;
+        height: 370px !important;
         filter: drop-shadow(1px 1px 20px #ffffffc5);
         position: relative;
         animation: flutuar 3s ease-in-out infinite;
