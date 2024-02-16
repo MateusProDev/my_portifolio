@@ -283,8 +283,8 @@
         font-size: 22px; /* Reduzindo o tamanho da fonte */
     }
     .imgSecUm {
-        width: 220px;
-        height: 420px !important;
+        width: 300px;
+        height: 400px !important;
         filter: drop-shadow(1px 1px 20px #ffffffc5);
         position: relative;
         animation: flutuar 3s ease-in-out infinite;
