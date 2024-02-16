@@ -167,11 +167,11 @@
         font-size: 18px; /* Reduzindo o tamanho da fonte */
     }
     .imgSecUm {
-        width: 200px;
-        height: 300px !important;
+        width: 150px;
+        height: 200px !important;
         filter: drop-shadow(1px 1px 20px #ffffffc5);
         position: relative;
-        top: 45px;
+        top: 70px;
         left: 10px;
         animation: flutuar 3s ease-in-out infinite;
         will-change: transform, opacity;
@@ -182,26 +182,18 @@
     .secUm{
         z-index: 999;
         position: absolute;
-        top: -250px;
+        top: -290px;
         left: 15px;
     }
     .secUmDois{
         z-index: 999;
         position: absolute;
-        top: -100px;
+        top: -90px;
         right: 15px;
         text-align: right;
     }
     .sectionUmSocial img {
         width: 50px;
-    }
-    .imgSecUm {
-        width: 150px;
-        height: 200px !important;
-        filter: drop-shadow(1px 1px 20px #ffffffc5);
-        position: relative;
-        animation: flutuar 3s ease-in-out infinite;
-        will-change: transform, opacity;
     }
 }
 
