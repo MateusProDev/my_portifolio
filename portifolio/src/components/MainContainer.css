@@ -32,7 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 0 100vh 100px #00000091;
+    box-shadow: inset 0 100vh 100px #000000af;
 }
 
 .secUm {
@@ -94,7 +94,7 @@
     font-size: 20px;
     background-color: #25D366;
     color: #fff;
-    box-shadow: 2px 2px 20px 5px #000000;
+    box-shadow: 2px 2px 20px 5px #000000aa;
     will-change: transform, opacity;
     z-index: 999; /* Colocando o botão acima de outros elementos */
     position: absolute; /* Definindo a posição como absoluta */

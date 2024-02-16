@@ -66,7 +66,7 @@ const MainContainer = () => {
               <div className="mainSectionsBox secUm">
                 <h2>DESIGNER</h2>
                 <p>Criamos o seu Design com a cara do seu negócio, marcando o mundo digital.</p>
-                <button>Whatssap</button>
+                <a href="https://wa.me/5585997977730?text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre%2C+como+adquirir+um+site."><button>Whatssap</button></a>
               </div>
             </animated.div>
             <animated.div ref={elementRefTres} className="animated-element" style={animationTres}>
