@@ -27,7 +27,6 @@
 }
 
 .sectionUm {
-    height: 105vh !important;
     background-image: url('../../public/img/fundoGatinho.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +95,7 @@
     font-size: 20px;
     background-color: #25D366;
     color: #fff;
-    box-shadow: 2px 2px 20px 5px #000000aa;
+    box-shadow: 2px 2px 20px 5px #0000008e;
     will-change: transform, opacity;
     z-index: 999; /* Colocando o botão acima de outros elementos */
     position: absolute; /* Definindo a posição como absoluta */
@@ -127,7 +126,7 @@
 
 .sectionUmSocial img:hover {
     transform: scale(1.1);
-    filter: drop-shadow(1px 1px 10px #ffffffa1);
+    filter: drop-shadow(1px 0px 0px #ffffff);
     cursor: pointer;
 }
 
@@ -172,7 +171,7 @@
         height: 200px !important;
         filter: drop-shadow(1px 1px 20px #ffffffc5);
         position: relative;
-        top: 140px;
+        top: 120px;
         left: 10px;
         animation: flutuar 3s ease-in-out infinite;
         will-change: transform, opacity;
@@ -183,13 +182,13 @@
     .secUm{
         z-index: 999;
         position: absolute;
-        top: -220px;
+        top: -250px;
         left: 15px;
     }
     .secUmDois{
         z-index: 999;
         position: absolute;
-        top: -20px;
+        top: -40px;
         right: 15px;
         text-align: right;
     }
