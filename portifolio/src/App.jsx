@@ -7,7 +7,7 @@ import MainContainer from './components/MainContainer';
 
 // Componentes para diferentes rotas
 const Home = () => <div>
-  
+  <MainContainer />
 </div>;
 const About = () => 
 <div>
@@ -37,7 +37,6 @@ const App = () => {
         </Routes>
       </div>
       </Router>
-      <MainContainer />
     </>
   );
 };

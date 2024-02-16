@@ -70,7 +70,7 @@ const MainContainer = () => {
               </div>
             </animated.div>
             <animated.div ref={elementRefTres} className="animated-element" style={animationTres}>
-            <div className="mainSectionsBox">
+            <div className="mainSectionsBox secImg">
               <img className='imgSecUm' src="/img/gatinho3D.png" alt="Fundo do Site" />
             </div>
             </animated.div>
@@ -78,7 +78,7 @@ const MainContainer = () => {
             <div>
             <div className="mainSectionsBox secUmDois">
               <h2>&lt;CODER&gt;</h2>
-              <p>Desenvolvemos seu site a partir do Design que é a cara do seu empreendimento.</p>
+              <p>Desenvolvemos seu site a partir do Design que é a cara do seu negócio.</p>
               <div className="sectionUmSocial">
                 <img src="./img/Instaa.png" alt="Instagram" />
                 <img src="./img/GitHub.png" alt="GitHub" />

@@ -1,30 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.mainSections{
+.mainSections {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.mainSectionsBox{
+
+.mainSectionsBox {
     width: 50%;
     text-align: center;
     padding: 20px;
 }
 
-.section{
+.section {
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.sectionUm{
+
+.sectionUm {
     background-image: url('../../public/img/fundoGatinho.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -32,12 +34,14 @@
     background-attachment: fixed;
     box-shadow: inset 0 100vh 100px #00000091;
 }
-.secUm{
-    width: 100%;
+
+.secUm {
+    width: auto;
     text-align: left;
     padding: 50px;
 }
-.secUm h2{
+
+.secUm h2 {
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -45,7 +49,8 @@
     margin-bottom: 10px;
     color: #0075FF;
 }
-.secUm p{
+
+.secUm p {
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-style: normal;
@@ -53,12 +58,14 @@
     color: #fff;
     margin: 15px 0 15px 0;
 }
-.secUmDois{
+
+.secUmDois {
     width: 100%;
     text-align: left;
     padding-right: 50px;
 }
-.secUmDois h2{
+
+.secUmDois h2 {
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -66,7 +73,8 @@
     margin-bottom: 10px;
     color: #fff;
 }
-.secUmDois p{
+
+.secUmDois p {
     font-family: "Source Code Pro", monospace;
     font-optical-sizing: auto;
     font-style: normal;
@@ -74,34 +82,34 @@
     color: #fff;
     margin: 15px 0 15px 0;
 }
-.secUm button{
+
+.secUm button {
     padding: 10px 20px;
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-    font-size: 24px;
-    background-color: #25D366;
-    color: #fff;
     font-family: "Russo One", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    background-color: #25D366;
+    color: #fff;
     box-shadow: 2px 2px 20px 5px #000000;
     will-change: transform, opacity;
+    z-index: 999; /* Colocando o botão acima de outros elementos */
+    position: absolute; /* Definindo a posição como absoluta */
 }
-.secUm button:hover{
+
+.secUm button:hover {
     transform: scale(1.1);
     box-shadow: 1px 1px 30px 1px #0077ff87;
     cursor: pointer;
     will-change: transform, opacity;
+    z-index: 999; /* Garantindo que o efeito :hover seja visível */
 }
-.imgSecUm {
-    width: auto;
-    transform: scale(1.9);
-    filter: drop-shadow(1px 1px 20px #ffffffc5);
-    position: relative; /* Adicionado para definir o contexto de posicionamento para o elemento filho */
-    animation: flutuar 3s ease-in-out infinite;
-    will-change: transform, opacity;
+
+.animated-element {
+    width: 400px;
 }
 
 @keyframes flutuar {
@@ -115,17 +123,212 @@
     }
 }
 
-.sectionUmSocial img:hover{
+.sectionUmSocial img:hover {
     transform: scale(1.1);
     filter: drop-shadow(1px 1px 10px #ffffffa1);
     cursor: pointer;
 }
 
-.sectionDois{
+.sectionDois {
     color: orange;
+}
+
+.sectionTres {
+    color: green;
+}
+
+/* Estilos para dispositivos móveis (menos de 768px de largura) */
+@media only screen and (max-width: 699px) {
+    .sectionUm {
+        width: 100%;
+        height: 100vh; /* Alterado para auto para permitir que a altura seja determinada pelo conteúdo */
+        display: flex;
+        flex-direction: column; /* Alterado para column para empilhar os elementos verticalmente */
+        justify-content: center; /* Centralize verticalmente */
+        align-items: center; /* Centralize horizontalmente */
+        box-sizing: border-box;
+    }
+
+    .sectionUm .secUm,
+    .sectionUm .secUmDois,
+    .sectionUm .secImg {
+        padding: 20px; /* Reduzindo o preenchimento */
+        max-width: 80%; /* Defina uma largura máxima */
+        flex: 1; /* Para ocupar todo o espaço disponível */
+        position: absolute;
+    }
+    .secUm h2,
+    .secUmDois h2 {
+        font-size: 35px; /* Reduzindo o tamanho da fonte */
+    }
+    .secUm p,
+    .secUmDois p {
+        font-size: 18px; /* Reduzindo o tamanho da fonte */
+    }
+    .imgSecUm {
+        width: 200px;
+        height: 300px !important;
+        filter: drop-shadow(1px 1px 20px #ffffffc5);
+        position: relative;
+        top: -60px;
+        animation: flutuar 3s ease-in-out infinite;
+        will-change: transform, opacity;
+    }
+    .sectionUmSocial img {
+        width: 25px;
+    }
+    .secUm{
+        z-index: 999;
+        position: absolute;
+        top: -310px;
+    }
+    .secUmDois{
+        z-index: 999;
+        position: absolute;
+        top: -20px;
+        right: 0;
+        text-align: right;
+    }
+    .sectionUmSocial img {
+        width: 50px;
+    }
+}
+
+
+
+
+/* Estilos para dispositivos móveis (menos de 768px de largura) */
+@media only screen and (min-width: 700px) and (max-width: 767px) {
+    .mainSectionsBox {
+        width: 100%; /* Reduzindo a largura do conteúdo principal */
+        padding: 10px; /* Reduzindo o preenchimento */
+    }
+    .secUm,
+    .secUmDois {
+        padding: 20px; /* Reduzindo o preenchimento */
+    }
+    .secUm h2,
+    .secUmDois h2 {
+        font-size: 35px; /* Reduzindo o tamanho da fonte */
+    }
+    .secUm p,
+    .secUmDois p {
+        font-size: 18px; /* Reduzindo o tamanho da fonte */
+    }
+    .imgSecUm {
+        width: 240px;
+        height: 400px !important;
+        filter: drop-shadow(1px 1px 20px #ffffffc5);
+        position: relative;
+        animation: flutuar 3s ease-in-out infinite;
+        will-change: transform, opacity;
+    }
+    .sectionUmSocial img {
+        width: 40px;
+    }
+}
+
+/* Estilos para tablets (768px a 1023px de largura) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Insira seus estilos para tablets aqui */
+    .mainSectionsBox {
+        width: 70%; /* Reduzindo a largura do conteúdo principal */
+    }
+    .secUm,
+    .secUmDois {
+        padding: 20px; /* Reduzindo o preenchimento */
+    }
+    .secUm h2,
+    .secUmDois h2 {
+        font-size: 35px; /* Reduzindo o tamanho da fonte */
+    }
+    .secUm p,
+    .secUmDois p {
+        font-size: 18px; /* Reduzindo o tamanho da fonte */
+    }
+    .imgSecUm {
+        width: 290px;
+        height: 450px !important;
+        filter: drop-shadow(1px 1px 20px #ffffffc5);
+        position: relative;
+        animation: flutuar 3s ease-in-out infinite;
+        will-change: transform, opacity;
+    }
+    .sectionUmSocial img {
+        width: 50px;
+    }
     
 }
-.sectionTres{
-    color: green;
+
+/* Estilos para notebooks (1024px a 1439px de largura) */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* Insira seus estilos para notebooks aqui */
+    .mainSectionsBox {
+        width: 60%; /* Reduzindo a largura do conteúdo principal */
+    }
+    .secUm,
+    .secUmDois {
+        width: 300px;
+        padding: 20px; /* Reduzindo o preenchimento */
+    }
+    .secUm h2,
+    .secUmDois h2 {
+        font-size: 45px; /* Reduzindo o tamanho da fonte */
+    }
+    .secUm p,
+    .secUmDois p {
+        font-size: 22px; /* Reduzindo o tamanho da fonte */
+    }
+    .imgSecUm {
+        width: 330px;
+        height: 480px !important;
+        filter: drop-shadow(1px 1px 20px #ffffffc5);
+        position: relative;
+        animation: flutuar 3s ease-in-out infinite;
+        will-change: transform, opacity;
+    }
+}
+
+/* Estilos para PCs (1440px ou mais de largura) */
+@media only screen and (min-width: 1440px) {
+   /* Insira seus estilos para notebooks aqui */
+   .mainSectionsBox {
+    width: 50%; /* Reduzindo a largura do conteúdo principal */
+    }
+    .secUm,
+    .secUmDois {
+        width: 400px;
+        padding: 20px; /* Reduzindo o preenchimento */
+    }
+    .secUm h2,
+    .secUmDois h2 {
+        font-size: 55px; /* Reduzindo o tamanho da fonte */
+    }
+    .secUm p,
+    .secUmDois p {
+        font-size: 25px; /* Reduzindo o tamanho da fonte */
+    }
+    .imgSecUm {
+        width: 330px;
+        height: 480px !important;
+        filter: drop-shadow(1px 1px 20px #ffffffc5);
+        position: relative;
+        animation: flutuar 3s ease-in-out infinite;
+        will-change: transform, opacity;
+    }
+    .sectionUmSocial img {
+        width: 75px;
+    }
+    .secUm button {
+        padding: 15px 25px;
+        font-size: 24px;
+    }
     
+    .secUm button:hover {
+        transform: scale(1.1);
+        box-shadow: 1px 1px 30px 1px #0077ff87;
+        cursor: pointer;
+        will-change: transform, opacity;
+        z-index: 999; /* Garantindo que o efeito :hover seja visível */
+    }
 }

@@ -11,40 +11,59 @@ body{
 }
 .navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
-    background-color: #f8f8f8;
-    box-shadow: 4px 0 4px #333333b8;
+    background-image: linear-gradient(to right, rgb(8, 8, 8), rgb(21, 21, 21));
+    box-shadow: 4px 4px 4px #f80000;
     padding: 0 35px;
 }
 .nav-links {
   display: flex;
   padding: 0;
   text-align: center;
-}
+  position: absolute;
+  right: 20px;
+} 
 
 .navbar li {
   display: flex;
   flex-direction: column; /* Para centralizar verticalmente */
   align-items: center;
-  margin: 0;
+  margin: 0 5px;
   width: 95px;
   overflow: hidden; /* Evita que o texto ultrapasse o tamanho do li */
+}
+.navbar li:last-child{
+  margin-left: 20px;
+}
+.navbar li:first-child{
+  margin-right: -10px;
 }
 
 .navbar li a {
   text-decoration: none;
-  font-size: 20px; /* Tamanho original */
-  color: #0D6BA6;
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
   display: flex;
-  text-align: center;
+  text-align: right;
   align-items: center; /* Centralizar verticalmente o texto */
   height: 100%; /* Preenche toda a altura do li */
+  will-change: transform, opacity;
 }
-
+#color-home{
+  color: #0D6BA6;
+  transform: scale(1.05);
+}
+#color-home:hover{
+  transform: scale(1.1);
+}
 .navbar li a:hover {
   transform: scale(1.1);
-  color: #FF51C4;
+  color: #0D6BA6;
+  will-change: transform, opacity;
 }
 
 
@@ -91,52 +110,63 @@ body{
       opacity: 0;
       transition: opacity 1s ease-out;
       position: absolute;
-      top: 60px; /* Ajuste conforme necessário */
+      top: 87px; /* Ajuste conforme necessário */
       left: 0;
       width: 100%;
-      height: 50vh;
+      height: 100vh;
       background-color: #f9f9f9;
-      padding: 10px;
       box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
       z-index: 1;
     }
     .nav-links{
         display: none;
     }
+    .menu-icon{
+      position: absolute;
+      right: 20px;
+    }
     .navbar li {
       display: flex;
     }
     .navbar li a {
-      text-align: left;
+      text-align: center;
       width: 50px;
     }
     .nav-links-mobile{
         display: block;
-        margin: 20px 0 0 -70px;
-        text-align: center;
+        margin: 20px 0 0 -60px;
+        text-align: center !important;
     }
     .nav-links-mobile li{
-        width: 150px;
-        height: 10px;
+        width: 100%;
         font-size: 22px;
         font-family: Helvetica, sans-serif;
-        padding: 20px 5px;
-        text-align: left;
+        padding: 50px 5px;
+        text-align: center !important;
     }
 
-    .nav-links-mobile li a{
-        text-decoration: none;
-        color: #0D6BA6;
-        text-align: left;
+    #mobaContat{
+      margin-right: 30px;
     }
+    #mobaSobre{
+      margin-left: 20px;
+    }
+    #mobaHome{
+      margin-left: 20px;
+    }
+    .nav-links-mobile li a{
+      text-decoration: none;
+      color: #0D6BA6;
+      text-align: center !important;
+  }
     .nav-links-mobile li a:hover{
       text-decoration: none;
-      color: #FF51C4;
+      color: #023656;
     }
     .social-links-icon{
       position: absolute;
       bottom: 30px;
-      margin-left: 20px;
+      margin-left: 50px;
     }
     .social-links.open {
       display: flex; /* Mostrar links quando o menu estiver aberto */
@@ -156,3 +186,35 @@ body{
     }
   }
   
+/* Estilos para tablets (768px a 1023px de largura) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* Estilos para notebooks (1024px a 1439px de largura) */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .navbar li {
+    width: 120px;
+    height: 45px;
+  }
+  .navbar li a {
+    font-size: 22px;
+  }
+  .navbar li a:hover {
+    font-size: 24px !important;
+  }
+}
+
+/* Estilos para PCs (1440px ou mais de largura) */
+@media only screen and (min-width: 1440px) {
+  .navbar li {
+    width: 120px;
+    height: 45px;
+  }
+  .navbar li a {
+    font-size: 22px;
+  }
+  .navbar li a:hover {
+    font-size: 24px !important;
+  }
+}
