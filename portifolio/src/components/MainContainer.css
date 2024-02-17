@@ -208,20 +208,21 @@
     }
     .secDois h2{
         font-size: 22px;
-        margin: 50px 0 20px 0;
+        margin: 80px 0 30px 0;
     }
     .secDoisDois{
         width: 100%;
         text-align: left;
     }
-    .secDoisDois h2{
-        margin: 40px 0;
-    }
+   
     .sectionTres{
         display: block;
         background: linear-gradient(to top, #13133a, #434369);
         font-size: 20px;
         color: #f5f5f5;
+    }
+    .secTres {
+         padding-top: 80px;
     }
     .sectionTres h2, h3{
         font-size: 22px;
