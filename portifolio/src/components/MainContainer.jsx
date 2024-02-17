@@ -118,7 +118,7 @@ const MainContainer = () => {
           </section>
           <section className="section sectionDois">
             <div className="mainSectionsBox secDois">
-              <h2>SOBRE MIM</h2>
+              <h2>ABOUT</h2>
               <p>
                 No início de 2023, tomei a decisão de me aventurar no vasto{" "}
                 <strong>mundo da programação</strong> e desde então venho me
