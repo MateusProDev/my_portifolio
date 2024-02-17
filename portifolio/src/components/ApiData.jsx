@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import './ApiData.css'
 
 function ApiData() {
     const [repos, setRepos] = useState([]);

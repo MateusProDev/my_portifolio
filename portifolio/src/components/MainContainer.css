@@ -198,6 +198,7 @@
     }
     /* seção dois */
     .sectionDois {
+        height: auto !important;
         display: block;
         background: linear-gradient(to bottom, #2f2f2f, #002f64);
         font-size: 20px;

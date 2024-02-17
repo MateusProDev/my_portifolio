@@ -74,8 +74,8 @@ const MainContainer = () => {
               <div className="mainSectionsBox secUm">
                 <h2>DESIGNER</h2>
                 <p>
-                  Criamos o seu Design com a cara do seu negócio, marcando o
-                  mundo digital.
+                  Especialista em criar designs que cativam e destacam a
+                  identidade do seu negócio.
                 </p>
                 <a href="https://wa.me/5585997977730?text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre%2C+como+adquirir+um+site.">
                   <button>Whatssap</button>
@@ -104,8 +104,8 @@ const MainContainer = () => {
                 <div className="mainSectionsBox secUmDois">
                   <h2>&lt;CODER&gt;</h2>
                   <p>
-                    Desenvolvemos seu site a partir do Design que é a cara do
-                    seu negócio.
+                    Transformo designs em sites funcionais e atrativos,
+                    representando sua marca com excelência.
                   </p>
                   <div className="sectionUmSocial">
                     <img src="./img/Instaa.png" alt="Instagram" />
@@ -119,10 +119,26 @@ const MainContainer = () => {
           <section className="section sectionDois">
             <div className="mainSectionsBox secDois">
               <h2>SOBRE MIM</h2>
-              <p>No início de 2023, tomei a decisão de me aventurar no vasto <strong>mundo da programação</strong> e desde então venho me dedicando <strong>intensamente</strong> a aprimorar minhas habilidades em <strong>UI</strong> e <strong>desenvolvimento de software</strong>. Nas horas vagas, encontrar-me diante do teclado, <strong>programando como hobby</strong>, explorando novas tecnologias e desbravando os caminhos do código é o que mais me fascina.</p>
+              <p>
+                No início de 2023, tomei a decisão de me aventurar no vasto{" "}
+                <strong>mundo da programação</strong> e desde então venho me
+                dedicando <strong>intensamente</strong> a aprimorar minhas
+                habilidades em <strong>UI</strong> e{" "}
+                <strong>desenvolvimento de software</strong>. Nas horas vagas,
+                encontrar-me diante do teclado,{" "}
+                <strong>programando como hobby</strong>, explorando novas
+                tecnologias e desbravando os caminhos do código é o que mais me
+                fascina.
+              </p>
             </div>
             <div className="mainSectionsBox secDoisDois">
-              <p>Além disso, adoro <strong>passear com minha esposa</strong>, aproveitando cada momento juntos. Atualmente, estou <strong>imerso no desenvolvimento</strong> de um projeto similar ao <strong>GitHub</strong> para uma pequena comunidade da qual faço parte, conhecida como <strong>APCE.</strong></p>
+              <p>
+                Além disso, adoro <strong>passear com minha esposa</strong>,
+                aproveitando cada momento juntos. Atualmente, estou{" "}
+                <strong>imerso no desenvolvimento</strong> de um projeto similar
+                ao <strong>GitHub</strong> para uma pequena comunidade da qual
+                faço parte, conhecida como <strong>APCE.</strong>
+              </p>
             </div>
           </section>
           <section className="section sectionTres">
