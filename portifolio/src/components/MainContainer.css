@@ -198,26 +198,26 @@
     /* seção dois */
     .sectionDois {
         display: block;
-        background: linear-gradient(to bottom, #000008, #434369);
-        font-size: 20px;
+        background: linear-gradient(to bottom, #000b1a, #002f64);
+        font-size: 19px;
         border-bottom: 1px solid #fff;
+        padding: 0 20px;
     }
     .secDois{
         width: 100%;
         text-align: left;
     }
     .secDois h2{
-        font-size: 22px;
-        margin: 80px 0 30px 0;
+        font-size: 20px;
+        margin: 30px 0 30px 0;
     }
     .secDoisDois{
         width: 100%;
         text-align: left;
     }
-   
     .sectionTres{
         display: block;
-        background: linear-gradient(to top, #13133a, #434369);
+        background: linear-gradient(to top, #000b1a, #002f64);
         font-size: 20px;
         color: #f5f5f5;
     }
@@ -225,7 +225,7 @@
          padding-top: 80px;
     }
     .sectionTres h2, h3{
-        font-size: 22px;
+        font-size: 20px;
         margin: 30px 0;
     }
     .secTres{
@@ -233,9 +233,6 @@
         text-align: left;
     }
 }
-
-
-
 
 /* Estilos para dispositivos móveis (menos de 768px de largura) */
 @media only screen and (min-width: 700px) and (max-width: 767px) {
@@ -266,6 +263,19 @@
     .sectionUmSocial img {
         width: 40px;
     }
+    /*secao dois*/
+    .sectionDois {
+        background: linear-gradient(to bottom, #000b1a, #002f64);
+        font-size: 20px;
+        border-bottom: 1px solid #fff;
+        padding: 0 40px;
+
+    }
+    .secDois h2{
+        font-size: 22px;
+        margin: 0px 0 30px 0;
+    }
+    
 }
 
 /* Estilos para tablets (768px a 1023px de largura) */
@@ -297,6 +307,17 @@
     .sectionUmSocial img {
         width: 50px;
     }
+     /*secao dois*/
+     .sectionDois {
+        background: linear-gradient(to bottom, #000b1a, #002f64);
+        font-size: 20px;
+        border-bottom: 1px solid #fff;
+        padding: 0 40px;
+    }
+    .secDois h2{
+        font-size: 22px;
+        margin: 0px 0 30px 0;
+    }
     
 }
 
@@ -326,6 +347,17 @@
         position: relative;
         animation: flutuar 3s ease-in-out infinite;
         will-change: transform, opacity;
+    }
+     /*secao dois*/
+     .sectionDois {
+        background: linear-gradient(to bottom, #000b1a, #002f64);
+        font-size: 22px;
+        border-bottom: 1px solid #fff;
+        padding: 0 40px;
+    }
+    .secDois h2{
+        font-size: 24px;
+        margin: 0px 0 30px 0;
     }
 }
 
@@ -370,5 +402,16 @@
         cursor: pointer;
         will-change: transform, opacity;
         z-index: 999; /* Garantindo que o efeito :hover seja visível */
+    }
+    /*secao dois*/
+    .sectionDois {
+        background: linear-gradient(to bottom, #000b1a, #002f64);
+        font-size: 24px;
+        border-bottom: 1px solid #fff;
+        padding: 0 40px;
+    }
+    .secDois h2{
+        font-size: 26px;
+        margin: 0px 0 30px 0;
     }
 }
