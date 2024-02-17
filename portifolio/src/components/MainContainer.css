@@ -203,7 +203,7 @@
         background: linear-gradient(to bottom, #2f2f2f, #002f64);
         font-size: 20px;
         border-bottom: 1px solid #fff;
-        padding: 0 20px;
+        padding: 0 20px 20px 20px;
     }
     .secDois{
         width: 100%;
