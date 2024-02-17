@@ -200,21 +200,22 @@
         display: block;
         background: linear-gradient(to bottom, #000008, #434369);
         font-size: 20px;
-    }    
+        border-bottom: 1px solid #fff;
+    }
     .secDois{
         width: 100%;
         text-align: left;
     }
     .secDois h2{
         font-size: 22px;
-        margin: 30px 0;
+        margin: 50px 0 20px 0;
     }
     .secDoisDois{
         width: 100%;
         text-align: left;
     }
     .secDoisDois h2{
-        margin: 20px 0;
+        margin: 40px 0;
     }
     .sectionTres{
         display: block;
