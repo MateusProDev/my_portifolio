@@ -130,9 +130,6 @@ const MainContainer = () => {
               <h2>EXPERIENCE</h2>
               <ApiData />
             </div>
-            <div className="mainSectionsBox">
-
-            </div>
           </section>
         </div>
       </main>

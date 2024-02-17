@@ -27,6 +27,7 @@
 }
 
 .sectionUm {
+    background: linear-gradient(to bottom, #000b1a, #002f64);
     background-image: url('../../public/img/fundoGatinho.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -215,6 +216,8 @@
         width: 100%;
         text-align: left;
     }
+
+    /* secao tres */
     .sectionTres{
         display: block;
         background: linear-gradient(to top, #2f2f2f, #002f64);
@@ -231,6 +234,27 @@
     .secTres{
         width: 100%;
         text-align: left;
+    }
+    .projetosGitHub{
+        padding: 0 20px;
+    }
+    .projetosGitHub h2{
+        margin-bottom: 5px;
+    }
+    .projetosGitHub h1{
+        font-size: 22px;
+        margin-left: -20px;
+    }
+    .projetosGitHub ul li{
+        display: block;
+    }
+    .projetosGitHub a{
+        color: #0d6ba6;
+        font-size: 24px;
+    }
+    .projetosGitHub p{
+        font-size: 18px;
+        color: #cccccc;
     }
 }
 
@@ -275,6 +299,42 @@
         font-size: 22px;
         margin: 0px 0 30px 0;
     }
+    /* secao tres */
+    .sectionTres{
+        width: 100%;
+        display: flex;
+        background: linear-gradient(to top, #2f2f2f, #002f64);
+        font-size: 20px;
+        color: #f5f5f5;
+    }
+    .secTres {
+        padding-top: 80px;
+   }
+   .sectionTres h2, h3{
+       font-size: 22px;
+       margin: 30px 0;
+   }
+   .projetosGitHub{
+       padding: 0 20px;
+   }
+   .projetosGitHub h2{
+       margin-bottom: 5px;
+   }
+   .projetosGitHub h1{
+       font-size: 22px;
+       margin-left: -20px;
+   }
+   .projetosGitHub ul li{
+       display: block;
+   }
+   .projetosGitHub a{
+       color: #0d6ba6;
+       font-size: 24px;
+   }
+   .projetosGitHub p{
+       font-size: 18px;
+       color: #cccccc;
+   }
     
 }
 
@@ -318,6 +378,42 @@
         font-size: 22px;
         margin: 0px 0 30px 0;
     }
+    /* secao tres */
+    .sectionTres{
+        width: 100%;
+        display: flex;
+        background: linear-gradient(to top, #2f2f2f, #002f64);
+        font-size: 20px;
+        color: #f5f5f5;
+    }
+    .secTres {
+        padding-top: 80px;
+   }
+   .sectionTres h2, h3{
+       font-size: 22px;
+       margin: 30px 0;
+   }
+   .projetosGitHub{
+       padding: 0 20px;
+   }
+   .projetosGitHub h2{
+       margin-bottom: 5px;
+   }
+   .projetosGitHub h1{
+       font-size: 22px;
+       margin-left: -20px;
+   }
+   .projetosGitHub ul li{
+       display: block;
+   }
+   .projetosGitHub a{
+       color: #0d6ba6;
+       font-size: 24px;
+   }
+   .projetosGitHub p{
+       font-size: 18px;
+       color: #cccccc;
+   }
     
 }
 
@@ -359,6 +455,42 @@
         font-size: 24px;
         margin: 0px 0 30px 0;
     }
+    /* secao tres */
+    .sectionTres{
+        width: 100%;
+        display: flex;
+        background: linear-gradient(to top, #2f2f2f, #002f64);
+        font-size: 20px;
+        color: #f5f5f5;
+    }
+    .secTres {
+        padding-top: 80px;
+   }
+   .sectionTres h2, h3{
+       font-size: 22px;
+       margin: 30px 0;
+   }
+   .projetosGitHub{
+       padding: 0 20px;
+   }
+   .projetosGitHub h2{
+       margin-bottom: 5px;
+   }
+   .projetosGitHub h1{
+       font-size: 22px;
+       margin-left: -20px;
+   }
+   .projetosGitHub ul li{
+       display: block;
+   }
+   .projetosGitHub a{
+       color: #0d6ba6;
+       font-size: 24px;
+   }
+   .projetosGitHub p{
+       font-size: 18px;
+       color: #cccccc;
+   }
 }
 
 /* Estilos para PCs (1440px ou mais de largura) */
@@ -414,4 +546,40 @@
         font-size: 26px;
         margin: 0px 0 30px 0;
     }
+    /* secao tres */
+    .sectionTres{
+        width: 100%;
+        display: flex;
+        background: linear-gradient(to top, #2f2f2f, #002f64);
+        font-size: 20px;
+        color: #f5f5f5;
+    }
+    .secTres {
+        padding-top: 80px;
+   }
+   .sectionTres h2, h3{
+       font-size: 22px;
+       margin: 30px 0;
+   }
+   .projetosGitHub{
+       padding: 0 20px;
+   }
+   .projetosGitHub h2{
+       margin-bottom: 5px;
+   }
+   .projetosGitHub h1{
+       font-size: 22px;
+       margin-left: -20px;
+   }
+   .projetosGitHub ul li{
+       display: block;
+   }
+   .projetosGitHub a{
+       color: #0d6ba6;
+       font-size: 24px;
+   }
+   .projetosGitHub p{
+       font-size: 18px;
+       color: #cccccc;
+   }
 }
