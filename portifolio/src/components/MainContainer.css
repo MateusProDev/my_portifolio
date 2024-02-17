@@ -199,7 +199,7 @@
     .sectionDois {
         display: block;
         background: linear-gradient(to bottom, #000b1a, #002f64);
-        font-size: 19px;
+        font-size: 20px;
         border-bottom: 1px solid #fff;
         padding: 0 20px;
     }
@@ -208,7 +208,7 @@
         text-align: left;
     }
     .secDois h2{
-        font-size: 20px;
+        font-size: 22px;
         margin: 30px 0 30px 0;
     }
     .secDoisDois{
@@ -225,7 +225,7 @@
          padding-top: 80px;
     }
     .sectionTres h2, h3{
-        font-size: 20px;
+        font-size: 22px;
         margin: 30px 0;
     }
     .secTres{
