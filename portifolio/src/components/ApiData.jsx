@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './ApiData.css'
 
 function ApiData() {
     const [repos, setRepos] = useState([]);
@@ -13,7 +14,8 @@ function ApiData() {
                     throw new Error(`Erro ao buscar repositórios: ${response.status}`);
                 }
                 const data = await response.json();
-                const filteredRepos = data.filter(repo => 
+                const filteredRepos = data.filter(repo =>
+                    repo.name === 'barbearia_samuel_abreu' || 
                     repo.name === 'Agencia-corrida-Jc' ||
                     repo.name === 'Previsao-Meteorologica' ||
                     repo.name === 'my_portifolio'
@@ -38,7 +40,7 @@ function ApiData() {
     }
 
     return (
-        <div>
+        <div className='projetosGitHub'>
             <h1>Meus Repositórios Selecionados no GitHub</h1>
             <ul>
                 {repos.map(repo => (

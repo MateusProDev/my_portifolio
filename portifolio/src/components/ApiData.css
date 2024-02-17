@@ -3,19 +3,24 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-
-.apiData{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.projetosGitHub{
+    padding: 0 20px;
 }
-.apiBox{
-    width: 500px;
-    margin: auto;
+.projetosGitHub h2{
+    margin-bottom: 5px;
 }
-.apiBox ul{
-    padding: 0;
+.projetosGitHub h1{
+    font-size: 22px;
+    margin-left: -20px;
 }
-.apiBox li{
+.projetosGitHub ul li{
     display: block;
+}
+.projetosGitHub a{
+    color: #0d6ba6;
+    font-size: 24px;
+}
+.projetosGitHub p{
+    font-size: 18px;
+    color: #cccccc;
 }
