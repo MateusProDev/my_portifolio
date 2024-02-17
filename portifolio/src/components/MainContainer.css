@@ -311,11 +311,26 @@
         font-size: 20px;
         border-bottom: 1px solid #fff;
         padding: 0 40px;
-
     }
     .secDois h2{
         font-size: 22px;
         margin: 0px 0 30px 0;
+    }
+    .secDois p, .secDoisDois p{
+        font-size: 16px;
+        width: 250px;
+        z-index: 999;
+        position: relative;
+    }
+    #lua{
+        width: 500px;
+        height: 400px !important;
+        right: -200px;
+        z-index: 1;
+        margin-top: -150px;
+        position: absolute;
+        animation: flutuar 3s ease-in-out infinite;
+        filter: drop-shadow(4px 4px 100px #01000b);
     }
     /* secao tres */
     .sectionTres{
@@ -353,6 +368,13 @@
        font-size: 18px;
        color: #cccccc;
    }
+   #lampada{
+    width: 200px;
+    position: absolute;
+    right: -250px;
+    margin-top: -50px;
+    filter: drop-shadow(4px 10px 10px #010018);
+    }
     
 }
 
@@ -396,6 +418,27 @@
         font-size: 22px;
         margin: 0px 0 30px 0;
     }
+    #lua{
+        width: 900px;
+        animation: flutuar 3s ease-in-out infinite;
+        filter: drop-shadow(4px 4px 100px #01000b);
+    }
+    .secDois p, .secDoisDois p{
+        font-size: 18px;
+        width: 300px;
+        z-index: 999;
+        position: relative;
+    }
+    #lua{
+        width: 500px;
+        height: 400px !important;
+        right: -200px;
+        z-index: 1;
+        margin-top: -150px;
+        position: absolute;
+        animation: flutuar 3s ease-in-out infinite;
+        filter: drop-shadow(4px 4px 100px #01000b);
+    }
     /* secao tres */
     .sectionTres{
         width: 100%;
@@ -432,7 +475,13 @@
        font-size: 18px;
        color: #cccccc;
    }
-    
+   #lampada{
+    width: 220px;
+    position: absolute;
+    right: -200px;
+    margin-top: -60px;
+    filter: drop-shadow(4px 10px 10px #010018);
+    }
 }
 
 /* Estilos para notebooks (1024px a 1439px de largura) */
@@ -473,6 +522,22 @@
         font-size: 24px;
         margin: 0px 0 30px 0;
     }
+    .secDois p, .secDoisDois p{
+        font-size: 22px;
+        width: 400px;
+        z-index: 999;
+        position: relative;
+    }
+    #lua{
+        width: 650px;
+        height: 450px !important;
+        right: -250px;
+        z-index: 1;
+        margin-top: -200px;
+        position: absolute;
+        animation: flutuar 3s ease-in-out infinite;
+        filter: drop-shadow(4px 4px 100px #01000b);
+    }
     /* secao tres */
     .sectionTres{
         width: 100%;
@@ -509,6 +574,13 @@
        font-size: 18px;
        color: #cccccc;
    }
+   #lampada{
+    width: 220px;
+    position: absolute;
+    right: -280px;
+    margin-top: -60px;
+    filter: drop-shadow(4px 10px 10px #010018);
+    }
 }
 
 /* Estilos para PCs (1440px ou mais de largura) */
@@ -564,6 +636,22 @@
         font-size: 26px;
         margin: 0px 0 30px 0;
     }
+    .secDois p, .secDoisDois p{
+        font-size: 24px;
+        width: 500px;
+        z-index: 999;
+        position: relative;
+    }
+    #lua{
+        width: 700px;
+        height: 500px !important;
+        right: -250px;
+        z-index: 1;
+        margin-top: -200px;
+        position: absolute;
+        animation: flutuar 3s ease-in-out infinite;
+        filter: drop-shadow(4px 4px 100px #01000b);
+    }
     /* secao tres */
     .sectionTres{
         width: 100%;
@@ -600,4 +688,11 @@
        font-size: 18px;
        color: #cccccc;
    }
+   #lampada{
+    width: 270px;
+    position: absolute;
+    right: -320px;
+    margin-top: -80px;
+    filter: drop-shadow(4px 10px 10px #010018);
+    }
 }
