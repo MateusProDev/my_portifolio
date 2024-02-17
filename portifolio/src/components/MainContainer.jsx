@@ -119,7 +119,7 @@ const MainContainer = () => {
           <section className="section sectionDois">
             <div className="mainSectionsBox secDois">
               <h2>ABOUT</h2>
-              <p>
+              <p id="paragraphZ">
                 No início de 2023, tomei a decisão de me aventurar no vasto{" "}
                 <strong>mundo da programação</strong> e desde então venho me
                 dedicando <strong>intensamente</strong> a aprimorar minhas
@@ -131,6 +131,15 @@ const MainContainer = () => {
                 fascina.
               </p>
             </div>
+            <animated.div
+              ref={elementRefTres}
+              className="animated-element"
+              style={animationTres}
+            >
+              <div>
+                <img id="lua" src="./img/lua.png" alt="lua" />
+              </div>
+            </animated.div>
             <div className="mainSectionsBox secDoisDois">
               <p>
                 Além disso, adoro <strong>passear com minha esposa</strong>,
@@ -143,6 +152,17 @@ const MainContainer = () => {
           </section>
           <section className="section sectionTres">
             <div className="mainSectionsBox secTres">
+              <animated.div
+                ref={elementRefDois}
+                className="animated-element"
+                style={animationDois}
+              >
+                <img
+                  id="lampada"
+                  src="./img/lampadaTerra.png"
+                  alt="lampada com a terra dentro"
+                />
+              </animated.div>
               <h2>EXPERIENCE</h2>
               <ApiData />
             </div>

@@ -213,6 +213,16 @@
         font-size: 22px;
         margin: 50px 0 30px 0;
     }
+    #paragraphZ{
+        position: relative;
+        z-index: 999;
+    }
+    #lua{
+        width: 800px;
+        margin: -50px 0 -60px -200px;
+        animation: flutuar 3s ease-in-out infinite;
+        filter: drop-shadow(4px 4px 50px #010018);
+    }
     .secDoisDois{
         width: 100%;
         text-align: left;
@@ -256,6 +266,13 @@
     .projetosGitHub p{
         font-size: 18px;
         color: #cccccc;
+    }
+    #lampada{
+        width: 200px;
+        position: absolute;
+        right: 20px;
+        margin-top: -50px;
+        filter: drop-shadow(4px 10px 10px #010018);
     }
 }
 
