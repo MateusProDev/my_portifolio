@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef, useEffect, useState } from "react";
 import { animated, useSpring } from "react-spring";
 import "./MainContainer.css";
 import "./UseScrollAnimation.css";
@@ -61,6 +61,13 @@ const MainContainer = () => {
   const { elementRef: elementRefTres, animation: animationTres } =
     useScrollAnimationBottom();
 
+
+  const [number, setNumber] = useState(0);
+
+  const contador = () => {
+    setNumber(number + 1);
+  };
+
   return (
     <>
       <main className="mainApp">
@@ -78,7 +85,7 @@ const MainContainer = () => {
                   identidade do seu negócio.
                 </p>
                 <a href="https://wa.me/5585997977730?text=Ol%C3%A1%2C+gostaria+de+mais+informa%C3%A7%C3%B5es+sobre%2C+como+adquirir+um+site.">
-                  <button>Whatssap</button>
+                  <button>Whatsapp</button>
                 </a>
               </div>
             </animated.div>
@@ -165,6 +172,12 @@ const MainContainer = () => {
               </animated.div>
               <h2>EXPERIENCE</h2>
               <ApiData />
+            </div>
+          </section>
+          <section>
+            <div>
+              <p>Contador: {number} </p>
+              <button onClick={contador}> Adcionar</button>
             </div>
           </section>
         </div>

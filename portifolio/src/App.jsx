@@ -27,7 +27,6 @@ const App = () => {
       <div>
         {/* Barra de navegação */}
         <NavBar />
-
         {/* Definição de rotas */}
         <Routes>
           <Route path="/" element={<Home />} />
